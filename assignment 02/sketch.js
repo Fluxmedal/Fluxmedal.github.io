@@ -25,7 +25,7 @@ function updateCurrentSide(){
 
 function mouseLocation(){
   if (mouseX < 630 && mouseY < 350) // top left
-
+    return "hi";
 }
 
 if (mouseX < 630 && mouseY > 350){
@@ -39,9 +39,9 @@ function renderSquares(){
   
   rect(0, 640, width/2, height/2);//bottom left
   
-  rect(640, 0, width/2, height/2);//top right
+  rect(1280, 0, width/2, height/2);//top right
   
-  rect(640, 640, width/2, height/2);//bottom right
+  rect(1280, 640, width/2, height/2);//bottom right
   
 
 

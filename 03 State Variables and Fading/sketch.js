@@ -19,7 +19,7 @@ function updateCurrentSide(){
     onLeft = true;
     onRight = false;
   }
-  else{
+  else {
     //mouse is on the right
     onRight = true;
     onLeft = false;
