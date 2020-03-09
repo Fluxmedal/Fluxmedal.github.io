@@ -28,10 +28,7 @@ function mouseLocation(){
     return "hi";
 }
 
-if (mouseX < 630 && mouseY > 350){
 
-  
-}
 
 function renderSquares(){
   
