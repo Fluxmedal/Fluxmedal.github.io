@@ -4,7 +4,7 @@
 //
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
-
+//if it doesnt look right put it into full screen and refresh the page
 let onLeft, onRight, topLeft, topRight;
 let leftFade = 0;
 let rightFade = 0;
@@ -24,7 +24,7 @@ function updateCurrentSide(){
 }
 
 function mouseLocation(){
-  if (mouseX < 630 && mouseY < 350) // top left
+  if (mouseX > 0 && mouseY > 0 && mouseX < 1280 && mouseY <638)
     return "hi";
 }
 
